@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(59, 3, 133);
+}
+
+.header {
+    height: 30vh;
+    background-image: url(https://spark.ru/upload/other/b_5e99b6f3498c4.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(214, 179, 230);
+    font-size: 35px;
+    border-radius: 13px;
+    padding-top: 6vh;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 2, 120, .7);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 5px;
+    border-color: rgb(255, 255, 255);
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626259245_45-kartinkin-com-p-belii-fon-gradient-krasivo-48.png);
+    background-color: rgb(121, 93, 158);
+}
+
+.blocks {
+    width: 350px;
+    margin-bottom: 60px;
+    padding: 25px 25px 70px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px rgba(8, 72, 105, .8);
+    border-radius: 13px;
+    margin-top: 20px;
+    background-color: rgb(214, 179, 230);
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.img-item img {
+    width: 96%;
+    height: 275px;
+    padding: 2%;
+    border-radius: 13px;
+
+}
+
+button {
+    background-color: rgb(115, 107, 209);
+    width: 200px;
+    height: 50px;
+    margin-left: 75px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 42, 89);
+    border-radius: 20px;
+}

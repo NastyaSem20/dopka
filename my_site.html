@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link href="my_site.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <h1>Оцените питомцев</h1>
+    </div>
+    <br>
+    <div class="main-div">
+        <div class="overlay">
+            <div class="blocks">
+                <div class="img-item">
+                    <img src="https://storage-api.petstory.ru/resize/800x800x80/fa/17/4b/fa174b369e114c428c0601cb64369c85.jpeg" alt="Модель №1">
+                </div>
+                <h2>Модель №1</h2>
+                <button onclick="vote('1')" type="submit">Проголосовать</button>
+            </div>
+
+            <div class="blocks">
+                <div class="img-item">
+                    <img src="https://www.purinaone.ru/cat/sites/default/files/styles/image_576/public/2020-08/norma_0.jpg?itok=fQPH71_P" alt="Модель №2">
+                </div>
+                <h2>Модель №2</h2>
+                <button onclick="vote('2')" type="submit">Проголосовать</button>
+            </div>
+
+            <div class="blocks">
+                <div class="img-item">
+                    <img src="https://aroundpet.ru/wp-content/uploads/zhirnyi-kotenok-1170x767.jpg" alt="Модель №3">
+                </div>
+                <h2>Модель №3</h2>
+                <button onclick="vote('3')" type="submit">Проголосовать</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <br>
+        <ul>
+            <li>Мы находимся тут</li>
+            <li>Наш номер телефона такой-то</li>
+            <li>Сайт разраотан разработчиками</li>
+        </ul>
+        <br>
+    </div>
+    <script>
+        function vote(n) {
+            alert('Вы выбрали кота номер: ' + n);
+        }
+    </script>
+</body>
+
+</html>
